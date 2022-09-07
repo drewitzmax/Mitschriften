@@ -13,7 +13,7 @@ The Connection happens only on layer 1
 ### L7 Application
 **Data Unit:** Data
 HTTP, FTP, SMTP...
-### L6 PResentation
+### L6 Presentation
 **Data Unit:** Data
 ASCII, EBCIDIC, JPEG... essentially data encodings
 ### L5 Session
@@ -24,15 +24,16 @@ SIP, H.323, H.235 (Voice over IP)
 TCP, UDP
 ### L3 Network
 **Data Unit:** Packet
-**Hardwar:** Router
+**Hardware:** Router
 IP, ICMP (Routing)
-### L2 Data Line
+### L2 Data Link
 **Data Unit:** Frame
-**Hardwar:** LAN Switch
+**Hardware:** LAN Switch
+Not only has a Header but also a Trailer
 Ethernet, WiFi
 ### L1 Physical
 **Data Unit:** Bits
-**Hardwar:** LAN Hubs
+**Hardware:** LAN Hubs
 RJ45, Ethernet, WiFi
 
 ## TCP/IP
@@ -43,6 +44,7 @@ RJ45, Ethernet, WiFi
 
 ## Data Encapsulation
 ### Segmentation
-Deviding Data into Parts (L4 OSI)
+Deviding Data into Parts (L4 OSI).
+Each Segment is encapsulated with an Header
 ### Headers
 Layer removes its own headers and hands information over to higher layers (Decapsulation)
