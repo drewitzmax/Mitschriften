@@ -1,7 +1,7 @@
 # Networking Technologies
 **Test:** 20.12.2022
 
-**Material:** [Cisco Networking Academy](https://www.netacad.com/courses/networking) 
+**Material:** [Cisco Networking Academy Course](hhttps://lms.netacad.com/course/view.php?id=1494354) 
 
 Certification for 200€
 
