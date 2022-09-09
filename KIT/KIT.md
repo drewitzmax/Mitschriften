@@ -49,6 +49,7 @@
 ## Schaltnetzanalyse
 * Wahrheitstabelle (WT)
 * Stellen = 2^Eingabewerte
+* Schaltnetze haben immer eine Verzögerung (annahme Trotzdem ~= 0)
   
 ## Morgan'sche Gesetze
   A && B = !(!A || !B)
@@ -56,4 +57,8 @@
   A || B = !(!A && !B)
 
 
-
+## Schaltungssynthese
+Generieren eines Schaltnetzes aus einer gewünschten Wahrheitstabelle
+### Disjunktive Normalform
+1. Mittels Vollkonjunktion und negationen die Gewünschten Einzelergebnisse erzeugen
+2. Mittels Or-Gatter Teilergebnisse aggregieren
