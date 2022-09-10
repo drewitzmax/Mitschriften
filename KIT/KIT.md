@@ -60,5 +60,7 @@
 ## Schaltungssynthese
 Generieren eines Schaltnetzes aus einer gewünschten Wahrheitstabelle
 ### Disjunktive Normalform
-1. Mittels Vollkonjunktion und negationen die Gewünschten Einzelergebnisse erzeugen
+1. Mittels Vollkonjunktion und negationen die Gewünschten positiven Einzelergebnisse erzeugen
 2. Mittels Or-Gatter Teilergebnisse aggregieren
+3. Minimierung durch verknüpfung "logischer Nachbarn" (Kombinationen, die unabhängig von den anderen Eingängen die gleichen Ergebnisse produzieren) - Karnaugh-Veitch-Diagramm
+
