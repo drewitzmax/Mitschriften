@@ -10,7 +10,7 @@
 # Digitaltechnik
 * Zahlensystem zur Basis 2
 * Größte relative Differenz
-* m = 2^n
+* $m = 2^n$
 * Bit 1 || 0
 * Byte = Bit[8]
 * Relativ Störungsunanfällig
@@ -48,7 +48,7 @@
 
 ## Schaltnetzanalyse
 * Wahrheitstabelle (WT)
-* Stellen = 2^Eingabewerte
+* $Stellen = 2^i$
 * Schaltnetze haben immer eine Verzögerung (annahme Trotzdem ~= 0)
   
 ## Morgan'sche Gesetze
