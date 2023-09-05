@@ -1,0 +1,6 @@
+Pros
++ The commands written down are right
+Cons
+- The network isn't fully planned out. There should be an assigned IP-Address for each host in the planned
+- The structure of the document isn't really suitable for a project documentation. The headlines don't structure the document in a sensible way
+- The "cheatsheet" is basically a shorter copy of the preprotocol
