@@ -1,0 +1,7 @@
+Pros:
++ I like that the network is fully planned out and every device has already a fixed IP and the Network configuration for every host is clear
++ Needed commands are all there
+
+Cons:
+- I would suggest to sepparate the IP range into a server range and a client range to minimize potential conflicts and introduce some order
+- Way to much redundant information was introduced by copying the whole document into the protocol
