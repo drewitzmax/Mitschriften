@@ -6,14 +6,14 @@
 ### NETA-GW
 **Username:** csdc
 
-**Password:** campus09
+**Password:** gatewaypasswd
 
 **Password (default):** campus09
 
 ### NETA-Web
 **Username:** csdc
 
-**Password:** campus09
+**Password:** webpasswd
 
 **Password (default):** campus09
 
@@ -29,6 +29,9 @@
 **DNS2:** 8.8.8.8
 
 **hostname:** gateway
+
+### IP Address Configuration
+To set the IP address use the command `sudo ip addr add 10.102.66.200/24 dev {{device-name}}` 
 
 ### Hostname Configuration
 To change the hostname use the command `sudo hostnamectl set-hostname {{new-hostname}}`.
